@@ -6,5 +6,9 @@
 
 export default {
   Address: 'AccountId',
-  LookupSource: 'AccountId'
+  LookupSource: 'AccountId',
+  MyStruct:{
+    number: 'u32',
+    option: 'Option<u32>'
+  }
 };
